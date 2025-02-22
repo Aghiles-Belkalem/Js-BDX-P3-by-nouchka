@@ -1,4 +1,84 @@
-# by-nouchka
+# 🌟 Application e-Commerce - BY NOUCHKA 🌟
+Bienvenue dans le projet BY NOUCHKA, une plateforme de e-commerce de bijoux fantaisie créée pour une jeune créatrice bordelaise. Cette application a été conçue de A à Z, en utilisant les dernières technologies pour garantir une gestion optimale, tant sur mobile que sur desktop.
+
+## 📋 Description du Projet
+Ce projet de e-commerce a été développé pour une créatrice de bijoux fantaisie, avec pour objectif de créer une plateforme simple à gérer, que ce soit sur téléphone ou ordinateur. L'application permet à l'administratrice de gérer tous les aspects de son site : produits, commandes, utilisateurs, et bien plus, le tout de manière intuitive et responsive.
+
+### 🛠 Technologies Utilisées
+Frontend :
+
+React.js avec TypeScript : Développement de l'interface utilisateur moderne et dynamique.
+Material-UI (MUI) : Utilisation de composants UI élégants pour une expérience utilisateur fluide.
+Swiper.js : Intégration de sliders pour afficher les produits de manière attrayante.
+Backend :
+
+Node.js & Express : Construction de l'API RESTful pour gérer les produits, les utilisateurs et les commandes.
+JWT (JSON Web Token) : Gestion de l'authentification sécurisée pour les utilisateurs et l'administratrice.
+Argon2 : Hashing sécurisé des mots de passe.
+Stripe : Intégration de paiements en ligne sécurisés pour garantir une transaction fluide et fiable.
+Mailjet : Envoi de mails transactionnels (confirmation de commande, réception de paiement, etc.).
+Base de Données :
+
+MySQL : Conception et gestion d'une base de données relationnelle pour stocker les informations sur les utilisateurs, les produits, les commandes, et les paiements.
+🚀 Fonctionnalités
+Gestion des Produits : Ajouter, modifier et supprimer des produits (descriptions, prix, images).
+Gestion des Commandes : Suivi des commandes passées, gestion des statuts (en cours, expédié, livré).
+Gestion des Utilisateurs : Création et gestion des comptes clients et administrateurs avec différents niveaux d'accès.
+Système de Paiement Sécurisé : Paiement en ligne via Stripe, sécurisé et rapide.
+Authentification & Sécurité : Authentification JWT et gestion des rôles d'utilisateurs (client, administrateur).
+Interface Responsive : Une interface qui s'adapte parfaitement à tous les appareils, que ce soit sur mobile ou sur desktop.
+#### 🛠 Installation & Dépendances
+1️⃣ Clone du Dépôt
+Pour commencer, clonez ce dépôt sur votre machine locale :
+
+bash
+Copier
+git clone https://github.com/votre-nom-dutilisateur/by-nouchka.git
+cd by-nouchka
+2️⃣ Installation des Dépendances
+Assurez-vous d'avoir Node.js et npm installés. Puis, dans le dossier racine du projet, installez les dépendances suivantes :
+
+bash
+Copier
+npm install
+Les principales dépendances sont :
+
+jsonwebtoken (JWT) - pour gérer l'authentification et les tokens d'accès.
+argon2 - pour le hachage des mots de passe.
+stripe - pour l'intégration des paiements en ligne.
+mailjet - pour envoyer des e-mails de confirmation et autres.
+mui - Material UI pour les composants d'interface.
+swiper - pour les sliders de présentation des produits.
+###### 🖥 Démarrer l'Application
+Une fois les dépendances installées, vous pouvez démarrer l'application en mode développement :
+
+Lancer le backend (Node.js & Express) :
+npm run dev
+et GO !
+
+## 📦 Structure du Projet
+Le projet est divisé en deux parties principales :
+
+Backend : Contient toute la logique côté serveur (API RESTful, gestion des utilisateurs, des produits, des paiements, etc.).
+Frontend : Contient l'interface utilisateur (créée avec React.js) pour interagir avec les utilisateurs et administrateurs.
+## 🔒 Sécurité & Authentification
+Pour la gestion des utilisateurs et la sécurité des données :
+
+Les mots de passe sont hachés avec Argon2 avant d'être stockés dans la base de données.
+Le système d'authentification utilise des tokens JWT, qui sont nécessaires pour accéder aux routes protégées du backend.
+## 🎨 Design & UX/UI
+Une attention particulière a été portée à la conception de l'interface utilisateur. L'application est :
+
+Responsive : Optimisée pour tous les appareils (téléphones, tablettes, ordinateurs).
+Moderne et intuitive : Utilisation de Material-UI (MUI) pour une interface élégante et fonctionnelle.
+Expérience fluide : Navigation simple et efficace pour une expérience d'achat agréable.
+🏷 À propos de la Créatrice
+Cette application a été conçue pour BY NOUCHKA, une créatrice de bijoux fantaisie située à Bordeaux. Elle souhaitait une plateforme simple à gérer, où elle pouvait mettre à jour ses produits, gérer les commandes, et suivre les paiements, tout cela de manière sécurisée et accessible, que ce soit depuis son ordinateur ou son téléphone.
+
+## 🤝 Contribuer
+Si vous souhaitez contribuer à ce projet, n'hésitez pas à créer une Pull Request ou à soumettre une Issue pour discuter d'une nouvelle fonctionnalité ou d'un bug à résoudre.
+
+Merci de votre intérêt pour le projet BY NOUCHKA ! ✨
 
 Ce projet est un monorepo JS, suivant l'architecture React-Express-MySQL telle qu'enseignée à la Wild Code School (v7.1.7) :
 
